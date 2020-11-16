@@ -1,0 +1,119 @@
+body {
+    background-image: url("../img/bg_object.png");
+}
+
+#menu {
+    margin: 0 auto;
+}
+
+#menu div, #menu a {
+    font-size: 1.5rem;
+    color: #ee6e73;
+}
+
+#menu-main {
+    background: url("../img/bg1.png") #ee6e73 left bottom no-repeat;
+}
+
+#menu-main h1 {
+    font-size: 4.4rem; /* 60px */
+    /*font-size: 60px;*/
+}
+
+#menu-main h3 {
+    font-size: 2.2rem; /* 30px */
+    /*margin-bottom: -25px;*/
+}
+
+#menu-main h4 {
+    margin: 0;
+}
+
+#img01 {
+    margin-top: 1.5rem;
+}
+
+#megumi {
+    margin-top: 1.5rem;
+    background-color: #ee6e73;
+}
+
+#megumi h1:last-child {
+    font-weight: bold;
+}
+
+#fine {
+    margin-top: 1.5rem;
+}
+
+#footer {
+    background-color: #fbfbfb;
+}
+
+#footer p {
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+    #menu-main {
+        background: url("../img/bg_a.png") #ee6e73 left bottom no-repeat;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 8px;
+    }
+
+    #menu-main h3 {
+        /*display: none;*/
+        font-size: 1.8rem;
+    }
+
+    #menu-main {
+        background: url("../img/bg_s.png") #ee6e73 left bottom no-repeat;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        font-size: 6px;
+    }
+
+    #menu-main h3 {
+        /*display: none;*/
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #menu-main h1 {
+        font-size: 3.5rem;
+    }
+
+    #menu-main h3 {
+        display: none;
+    }
+}
