@@ -10,7 +10,9 @@
 
 [中国魔学院](https://www.aim.ac.cn/)
 
-由于ac.cn貌似被珂学院占着所以无法用Github Pages。
+~~由于ac.cn貌似被珂学院占着所以无法用Github Pages。~~
+
+原来是因为在三年前这个域名就被注册过了使用Github Pages，现在已经取回了。
 
 Made with [Tocas UI](https://tocas-ui.com/)
 
